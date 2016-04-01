@@ -15,6 +15,12 @@
 		EF55F3D01C98138B001DDA89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF55F3CE1C98138B001DDA89 /* LaunchScreen.storyboard */; };
 		EF55F3DB1C98138B001DDA89 /* MyOtherTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF55F3DA1C98138B001DDA89 /* MyOtherTableViewTests.m */; };
 		EF55F3E61C98138B001DDA89 /* MyOtherTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF55F3E51C98138B001DDA89 /* MyOtherTableViewUITests.m */; };
+		EF55F3F51C981422001DDA89 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF55F3F41C981422001DDA89 /* MyTableViewController.m */; };
+		EF55F3F91C981519001DDA89 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = EF55F3F81C981519001DDA89 /* People.m */; };
+		EF55F3FC1C9826AE001DDA89 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF55F3FB1C9826AE001DDA89 /* MyTableViewCell.m */; };
+		EF55F3FF1C983C54001DDA89 /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = EF55F3FE1C983C54001DDA89 /* NSString+Utils.m */; };
+		EFB8E6F11C995BEF005459E9 /* PeopleDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB8E6F01C995BEF005459E9 /* PeopleDetailsViewController.m */; };
+		EFB8E6F41C997A11005459E9 /* CustomTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB8E6F31C997A11005459E9 /* CustomTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,18 @@
 		EF55F3E11C98138B001DDA89 /* MyOtherTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyOtherTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF55F3E51C98138B001DDA89 /* MyOtherTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyOtherTableViewUITests.m; sourceTree = "<group>"; };
 		EF55F3E71C98138B001DDA89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF55F3F31C981422001DDA89 /* MyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
+		EF55F3F41C981422001DDA89 /* MyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
+		EF55F3F71C981519001DDA89 /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		EF55F3F81C981519001DDA89 /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
+		EF55F3FA1C9826AE001DDA89 /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		EF55F3FB1C9826AE001DDA89 /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		EF55F3FD1C983C54001DDA89 /* NSString+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Utils.h"; sourceTree = "<group>"; };
+		EF55F3FE1C983C54001DDA89 /* NSString+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utils.m"; sourceTree = "<group>"; };
+		EFB8E6EF1C995BEF005459E9 /* PeopleDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeopleDetailsViewController.h; sourceTree = "<group>"; };
+		EFB8E6F01C995BEF005459E9 /* PeopleDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeopleDetailsViewController.m; sourceTree = "<group>"; };
+		EFB8E6F21C997A11005459E9 /* CustomTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewController.h; sourceTree = "<group>"; };
+		EFB8E6F31C997A11005459E9 /* CustomTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +119,15 @@
 		EF55F3BF1C98138B001DDA89 /* MyOtherTableView */ = {
 			isa = PBXGroup;
 			children = (
+				EF55F3F61C98142C001DDA89 /* Controller */,
 				EF55F3C31C98138B001DDA89 /* AppDelegate.h */,
 				EF55F3C41C98138B001DDA89 /* AppDelegate.m */,
-				EF55F3C61C98138B001DDA89 /* ViewController.h */,
-				EF55F3C71C98138B001DDA89 /* ViewController.m */,
-				EF55F3C91C98138B001DDA89 /* Main.storyboard */,
 				EF55F3CC1C98138B001DDA89 /* Assets.xcassets */,
 				EF55F3CE1C98138B001DDA89 /* LaunchScreen.storyboard */,
 				EF55F3D11C98138B001DDA89 /* Info.plist */,
 				EF55F3C01C98138B001DDA89 /* Supporting Files */,
+				EF55F3FD1C983C54001DDA89 /* NSString+Utils.h */,
+				EF55F3FE1C983C54001DDA89 /* NSString+Utils.m */,
 			);
 			path = MyOtherTableView;
 			sourceTree = "<group>";
@@ -138,6 +156,26 @@
 				EF55F3E71C98138B001DDA89 /* Info.plist */,
 			);
 			path = MyOtherTableViewUITests;
+			sourceTree = "<group>";
+		};
+		EF55F3F61C98142C001DDA89 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EF55F3F31C981422001DDA89 /* MyTableViewController.h */,
+				EF55F3F41C981422001DDA89 /* MyTableViewController.m */,
+				EF55F3C61C98138B001DDA89 /* ViewController.h */,
+				EF55F3C71C98138B001DDA89 /* ViewController.m */,
+				EF55F3C91C98138B001DDA89 /* Main.storyboard */,
+				EF55F3F71C981519001DDA89 /* People.h */,
+				EF55F3F81C981519001DDA89 /* People.m */,
+				EF55F3FA1C9826AE001DDA89 /* MyTableViewCell.h */,
+				EF55F3FB1C9826AE001DDA89 /* MyTableViewCell.m */,
+				EFB8E6EF1C995BEF005459E9 /* PeopleDetailsViewController.h */,
+				EFB8E6F01C995BEF005459E9 /* PeopleDetailsViewController.m */,
+				EFB8E6F21C997A11005459E9 /* CustomTableViewController.h */,
+				EFB8E6F31C997A11005459E9 /* CustomTableViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,7 +310,13 @@
 			files = (
 				EF55F3C81C98138B001DDA89 /* ViewController.m in Sources */,
 				EF55F3C51C98138B001DDA89 /* AppDelegate.m in Sources */,
+				EFB8E6F11C995BEF005459E9 /* PeopleDetailsViewController.m in Sources */,
+				EF55F3F91C981519001DDA89 /* People.m in Sources */,
+				EF55F3FC1C9826AE001DDA89 /* MyTableViewCell.m in Sources */,
 				EF55F3C21C98138B001DDA89 /* main.m in Sources */,
+				EF55F3F51C981422001DDA89 /* MyTableViewController.m in Sources */,
+				EFB8E6F41C997A11005459E9 /* CustomTableViewController.m in Sources */,
+				EF55F3FF1C983C54001DDA89 /* NSString+Utils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +540,7 @@
 				EF55F3EC1C98138B001DDA89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF55F3ED1C98138B001DDA89 /* Build configuration list for PBXNativeTarget "MyOtherTableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +549,7 @@
 				EF55F3EF1C98138B001DDA89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF55F3F01C98138B001DDA89 /* Build configuration list for PBXNativeTarget "MyOtherTableViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +558,7 @@
 				EF55F3F21C98138B001DDA89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
